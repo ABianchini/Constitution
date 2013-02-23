@@ -1,5 +1,7 @@
 package com.advancementbureau.constitution;
 
+import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,12 +11,17 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class MainActivity extends PickStoreActivity {
+	
+	String [] items = {"Preface","Article I: Work","Article II: People","Article III: Adventure","Article IV: Freedom","Article V: Religion and Morality","Article VI: Analysis","Article VII: Amendments","Article VIII: Adoption","More Info"};
+	
+	String [] itemsTitle = {"Preface","Work","People","Adventure","Freedom","Religion and Morality","Analysis","Amendments","Adoption","More Info"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		ListView menuList = (ListView) findViewById(R.id.ListView_Menu);
+		mGameSettings = getSharedPreferences(GAME_PREFERENCES, Context.MODE_PRIVATE);
 		
 		//mGameSettings = getSharedPreferences(GAME_PREFERENCES, Context.MODE_PRIVATE);
 		
@@ -26,6 +33,7 @@ public class MainActivity extends PickStoreActivity {
         		Editor editor = mGameSettings.edit();
         		editor.putInt(PICK_STORE, position);
         		editor.commit();
+        		startActivity(new Intent(MainActivity.this, DisplayActivity.class));
         	}
         });
 	}

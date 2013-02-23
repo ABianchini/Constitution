@@ -15,6 +15,11 @@ public class DisplayActivity extends PickStoreActivity {
 	public String title;
 	InputStream iFile;
 	String strFile = "Something went horribly wrong!";
+	
+	String [] items = {"Preface","Article I: Work","Article II: People","Article III: Adventure","Article IV: Freedom","Article V: Religion and Morality","Article VI: Analysis","Article VII: Amendments","Article VIII: Adoption","More Info"};
+	
+	String [] itemsTitle = {"Preface","Work","People","Adventure","Freedom","Religion and Morality","Analysis","Amendments","Adoption","More Info"};
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
