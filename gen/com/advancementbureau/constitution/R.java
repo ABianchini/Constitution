@@ -43,7 +43,15 @@ public final class R {
         public static final int main=0x7f080000;
     }
     public static final class raw {
-        public static final int preface=0x7f040000;
+        public static final int adoption=0x7f040000;
+        public static final int adventure=0x7f040001;
+        public static final int amendments=0x7f040002;
+        public static final int analysis=0x7f040003;
+        public static final int freedom=0x7f040004;
+        public static final int people=0x7f040005;
+        public static final int preface=0x7f040006;
+        public static final int relandmor=0x7f040007;
+        public static final int work=0x7f040008;
     }
     public static final class string {
         public static final int action_about=0x7f060001;
