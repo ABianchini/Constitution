@@ -19,6 +19,9 @@ public final class R {
          */
         public static final int activity_horizontal_margin=0x7f050000;
         public static final int activity_vertical_margin=0x7f050001;
+        public static final int help_text_drawable_padding=0x7f050008;
+        public static final int help_text_fading=0x7f050007;
+        public static final int help_text_padding=0x7f050006;
         public static final int menu_item_size=0x7f050003;
         public static final int screen_title_size=0x7f050002;
         public static final int text_padding=0x7f050004;
@@ -28,11 +31,12 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int ArtText=0x7f090001;
+        public static final int ArtText=0x7f090002;
         public static final int ArtTitle=0x7f090000;
-        public static final int ListView_Menu=0x7f090003;
-        public static final int MainTitle=0x7f090002;
-        public static final int action_about=0x7f090004;
+        public static final int ListView_Menu=0x7f090004;
+        public static final int MainTitle=0x7f090003;
+        public static final int ScrollViewLog=0x7f090001;
+        public static final int action_about=0x7f090005;
     }
     public static final class layout {
         public static final int display=0x7f030000;
@@ -48,10 +52,11 @@ public final class R {
         public static final int amendments=0x7f040002;
         public static final int analysis=0x7f040003;
         public static final int freedom=0x7f040004;
-        public static final int people=0x7f040005;
-        public static final int preface=0x7f040006;
-        public static final int relandmor=0x7f040007;
-        public static final int work=0x7f040008;
+        public static final int moreinfo=0x7f040005;
+        public static final int people=0x7f040006;
+        public static final int preface=0x7f040007;
+        public static final int relandmor=0x7f040008;
+        public static final int work=0x7f040009;
     }
     public static final class string {
         public static final int action_about=0x7f060001;

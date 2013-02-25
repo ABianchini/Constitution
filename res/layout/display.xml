@@ -13,16 +13,24 @@
 	    android:layout_width="wrap_content"
 	    android:textSize="@dimen/menu_item_size"
 	    android:layout_gravity="center" ></TextView>
-	<TextView
-        android:id="@+id/ArtText"
-        android:layout_width="match_parent"
+	<ScrollView
+        android:id="@+id/ScrollViewLog"
         android:layout_height="match_parent"
-        android:fadingEdge="vertical"
-        android:textSize="@dimen/text_size"
-        android:padding="@dimen/text_padding"
-        android:isScrollContainer="true"
+        android:layout_width="match_parent"
         android:scrollbars="vertical"
-        android:scrollbarStyle="outsideOverlay"
-        android:bufferType="spannable"/>
+        android:isScrollContainer="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true" >
+		<TextView
+	        android:id="@+id/ArtText"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:fadingEdge="vertical"
+	        android:textSize="@dimen/text_size"
+	        android:isScrollContainer="true"
+	        android:scrollbars="vertical"
+	        android:fadingEdgeLength="@dimen/help_text_fading"
+	        android:scrollbarStyle="outsideOverlay"
+	        android:bufferType="spannable" />
+	</ScrollView>
     
 </LinearLayout>

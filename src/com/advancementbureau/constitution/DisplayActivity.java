@@ -33,8 +33,33 @@ public class DisplayActivity extends PickStoreActivity {
 		switch (choice) {
 		case 0:
 			iFile = getResources().openRawResource(R.raw.preface);
-			title = itemsTitle[0];
 			break;
+		case 1:
+			iFile = getResources().openRawResource(R.raw.work);
+			break;
+		case 2:
+			iFile = getResources().openRawResource(R.raw.people);
+			break;
+		case 3:
+			iFile = getResources().openRawResource(R.raw.adventure);
+			break;
+		case 4:
+			iFile = getResources().openRawResource(R.raw.freedom);
+			break;
+		case 5:
+			iFile = getResources().openRawResource(R.raw.relandmor);
+			break;
+		case 6:
+			iFile = getResources().openRawResource(R.raw.analysis);
+			break;
+		case 7:
+			iFile = getResources().openRawResource(R.raw.amendments);
+			break;
+		case 8:
+			iFile = getResources().openRawResource(R.raw.adoption);
+			break;
+		case 9:
+			iFile = getResources().openRawResource(R.raw.moreinfo);
 		}
 		try {
 			strFile = inputStreamToString(iFile);
@@ -42,6 +67,7 @@ public class DisplayActivity extends PickStoreActivity {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		title = itemsTitle[choice];
 		articleText.setText(strFile);
 		articleTitle.setText(title);
 		
@@ -58,13 +84,6 @@ public class DisplayActivity extends PickStoreActivity {
 		dataIO.close();
 		is.close();
 		return sBuffer.toString();
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
 	}
 
 }

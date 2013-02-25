@@ -6,6 +6,9 @@
     <dimen name="screen_title_size">40sp</dimen>
     <dimen name="menu_item_size">34sp</dimen>
     <dimen name="text_padding">12sp</dimen>
-    <dimen name="text_size">12sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="help_text_padding">20dp</dimen>
+    <dimen name="help_text_fading">25dp</dimen>
+    <dimen name="help_text_drawable_padding">3dp</dimen>
 
 </resources>
