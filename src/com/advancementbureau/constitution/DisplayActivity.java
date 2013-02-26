@@ -4,9 +4,9 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+import android.app.ActionBar;
 import android.content.Context;
 import android.os.Bundle;
-import android.view.Menu;
 import android.widget.TextView;
 
 public class DisplayActivity extends PickStoreActivity {
@@ -29,6 +29,10 @@ public class DisplayActivity extends PickStoreActivity {
 		choice = mGameSettings.getInt(PICK_STORE, 0);
 		TextView articleText = (TextView) findViewById(R.id.ArtText);
 		TextView articleTitle = (TextView) findViewById(R.id.ArtTitle);
+		
+        ActionBar actionBar2 = getActionBar();
+        actionBar2.setDisplayHomeAsUpEnabled(true);
+        actionBar2.setTitle(itemsTitle[choice]);
 		
 		switch (choice) {
 		case 0:
