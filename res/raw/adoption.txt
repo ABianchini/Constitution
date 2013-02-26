@@ -1,7 +1,7 @@
 PROCESS
-	When the last Article is complete, the constitution must be read every day for a week, seven days. If any mistakes are noticed or corrections need to be made, then the week starts over with the corrections made.
-	The final revision constitution must be written twice on paper.
-	A method must be devised such that the constitution is always with you and ready.
+	When the last Article is complete, the constitution must be read every day for a week, seven days. If any mistakes are noticed or corrections need to be made, then the week starts over with the corrections made. Minor errors do not require a restart of the week.
+	The final revision of the constitution must be written twice on paper.
+	A method must be devised such that the constitution is always with you and ready to be referenced.
 	Each day, in the week, two decision must be made and recorded with their motivations derived from the final revision of the constitution.
 	The final revision of the constitution must be printed and signed.
 	With these steps completed, the constitution is adopted.

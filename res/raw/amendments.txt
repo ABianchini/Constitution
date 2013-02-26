@@ -1,9 +1,10 @@
 DEFINITION
 	An amendment is to be treated and obeyed as any other part of the constitution.
 	An amendment can only apply to one Article of the constitution.
-	The source of the constitution must be noted.
+	The source of the amendment must be noted.
 
 PROCESS
 	Adoption of the amendment occurs after a draft is made and read every day for a period along with the rest of the Article, until three days of reading is reached. If an error is found, then a correction must be made and the period starts over.
 	After the first complete period of discovering no errors, the section the amendment is in must be written twice with the amendment.
+	The final revision of the constitution with the new amendment must be printed and signed.
 	With these steps completed, the amendment is passed.
