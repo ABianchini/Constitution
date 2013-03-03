@@ -1,7 +1,7 @@
-DEFINITION
-	Work includes, but is not limited to, school, clubs, organizations, projects, and a job. In general, work is considered doing. 
+SECTION I: DEFINITION
+	Work includes, but is not limited to, school, clubs, organizations, projects, and a job. In general, work is considered doing.
 
-SUPERIOR
+SECTION II: SUPERIOR
 	All work must be completed to the best of your ability. If your ability is not satisfactory, then you must search for help. 
 	Opportunity Cost is not to be considered for the short term with work, but considered in the forming of work habits.
 	The objective of all school work is to learn, not to earn a high grade. Although high grades usually indicate that the subject has been learned.
@@ -11,16 +11,17 @@ SUPERIOR
 	A crash is a serious crisis that occurs when you are overworked to the point of losing sense and anxiety takes over. In the event of a crash, sit and breathe for 5 minutes and drink 10 gulps of water. Afterwards all aspects of the constitution are to be restored and observed.
 	After a crash, the next time of little priority is to be spent focusing on other priorities that were neglected due to the crash and recording the crash along with its cause and future prevention.
 	All work done by you is to have your name and the date.
-DAILY
+
+SECTION III: DAILY
 	Work for clubs and organizations are to be completed before sleeping the night before the day it is due.
 	School work is to be completed the night before the day it is due. 
 	Work of difficult caliber must be started immediately, meaning before analysis.
-	Work is to be done in order, starting with the most difficult assignments and ending with the easiest. Difficulty is not always determined by duration. The opposite is true on exams.
+	Work is to be done in order, starting with the most difficult assignments and ending with the easiest. Difficulty is not always determined by duration. The opposite of both is true on exams.
 	After 90 minutes of work (once lapse is possible), you must take a ten minute break, at least 2 feet away from where you were working.
 	The process of going to bed starts at 10:00 PM, unless commitments are made.
 	The day begins at 5:30 AM.
 
-PROJECTS
+SECTION IV: PROJECTS
 	Projects are to be recorded in the 7West folder of Dropbox. 
 	A project is established by recording the project’s expected hours per week, purpose of the project, the first 4 steps of the project, and a clear description of the completed project. A project must be established before it can be worked.
 	1 hour must be spent on work for that project before the second night after it was started.
